@@ -4,8 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const name = "Hello";
-const element = <h1> {name} world </h1>
+const name = "Syawal";
+function greet() {
+  return "Hello "+name
+}
+const element = <h1> {greet(name)} !!</h1>
 
 // ReactDOM.render(
 //   <React.StrictMode>
