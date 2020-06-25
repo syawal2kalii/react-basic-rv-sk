@@ -7,14 +7,14 @@ import * as serviceWorker from './serviceWorker';
 const name = "Hello";
 const element = <h1> {name} world </h1>
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-ReactDOM.render(element,document.getElementById('root'));
+//ReactDOM.render(element,document.getElementById('root'));
 
 
 
