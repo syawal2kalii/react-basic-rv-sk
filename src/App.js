@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function Biodata(props) {
-  return <span> Umurnya {props.age1}</span>
+  return <span> Umur {props.age1}</span>
 }
 
 function Greeting(props) {
@@ -17,6 +17,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Greeting name="Syawal" age="10"/>
+        {/* reusable */}
+        <Greeting name="Syawal" age="22"/>
       </header>
     </div>
   );
